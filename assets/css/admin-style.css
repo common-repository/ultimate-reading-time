@@ -1,0 +1,72 @@
+.wrap {
+    background-color: #ffffff;
+    padding: 20px 40px 40px 40px;
+    margin: 25px 50px 50px 50px;
+    border-radius: 10px;
+}
+
+.wrap h1 {
+    margin-bottom: 20px;
+    color:#666666;
+    font-weight: 500;
+}
+
+.wrap h2, h3 {
+    margin-top: 35px;
+}
+
+.wrap hr {
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 20%;
+    max-width: 400px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.ultimate-color-picker {
+    max-width: 100px;
+}
+
+.submit {
+    margin-top: 20px;
+}
+
+/* Reduce space between Display on Posts and Display on Pages checkboxes */
+#urtbenz_display_on_posts_label,
+#urtbenz_display_on_pages_label {
+    margin: 20px 0px 20px 0px;
+    font-weight: 500;
+}
+
+/* Add padding to specific elements */
+#urtbenz_custom_text_alignment,
+#urtbenz_custom_words_per_minute,
+#urtbenz_custom_font_style,
+#urtbenz_custom_font_weight,
+#urtbenz_custom_reading_time_position {
+    padding: 5px;
+}
+
+.shortcode-info ul {
+    color: #666666;
+}
+
+.shortcode-info h3 {
+    color: #000000;
+}

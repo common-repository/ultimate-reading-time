@@ -1,0 +1,17 @@
+.reading-time {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start; /* Default to left alignment */
+}
+
+.reading-time.center {
+	justify-content: center;
+}
+
+.reading-time.right {
+	justify-content: flex-end;
+}
+
+.reading-time .dashicons-clock {
+	margin-right: 5px;  
+}
